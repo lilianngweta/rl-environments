@@ -1,0 +1,7 @@
+2026-03-22 16:17:04 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Initializing ZMQEnvServer to serve spam-detection-rl-environment (env_args={}, extra_env_kwargs={})
+2026-03-22 16:17:04 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Loading environment spam-detection-rl-environment with env_args={}
+2026-03-22 16:17:04 - verifiers.utils.env_utils - INFO - Loading environment: spam-detection-rl-environment
+2026-03-22 16:17:05 - verifiers.utils.env_utils - INFO - Successfully loaded environment 'spam-detection-rl-environment'
+2026-03-22 16:17:05 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - ZMQEnvServer started on tcp://127.0.0.1:52644
+2026-03-22 16:17:05 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Health check responder started on tcp://127.0.0.1:52645
+2026-03-22 16:17:11 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Environment server shut down

@@ -1,0 +1,28 @@
+2026-03-22 16:43:34 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Initializing ZMQEnvServer to serve spam-detection-rl-environment (env_args={}, extra_env_kwargs={})
+2026-03-22 16:43:34 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Loading environment spam-detection-rl-environment with env_args={}
+2026-03-22 16:43:34 - verifiers.utils.env_utils - INFO - Loading environment: spam-detection-rl-environment
+2026-03-22 16:43:34 - verifiers.utils.env_utils - INFO - Successfully loaded environment 'spam-detection-rl-environment'
+2026-03-22 16:43:34 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - ZMQEnvServer started on tcp://127.0.0.1:53933
+2026-03-22 16:43:34 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Health check responder started on tcp://127.0.0.1:53934
+2026-03-22 16:43:44 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=37ms, max=37ms (n=98)
+2026-03-22 16:43:54 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:44:04 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=100)
+2026-03-22 16:44:14 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:44:24 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:44:34 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:44:44 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:44:54 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:45:04 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:45:14 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:45:24 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 31, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=100)
+2026-03-22 16:45:34 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:45:44 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:45:54 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:46:04 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:46:14 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 31, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:46:24 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 6, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:46:34 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 6, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:46:44 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 6, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:46:54 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 6, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:47:04 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 6, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:47:10 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Environment server shut down

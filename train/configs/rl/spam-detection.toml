@@ -1,0 +1,49 @@
+model = "Qwen/Qwen3-4B-Instruct-2507"
+max_steps = 500
+batch_size = 128
+rollouts_per_example = 1
+# trajectory_strategy = "interleaved"  # DEPRECATED - no longer used
+# learning_rate = 1e-5
+# lora_alpha = 16
+# oversampling_factor = 2.0
+# max_async_level = 2
+# env_file = ["secrets.env"] # optional file(s) for keys/secrets
+
+[sampling]
+max_tokens = 256  # Spam detection responses are typically short
+
+[[env]]
+id = "rl-envs-team/spam-detection-rl-environment"
+
+[wandb]
+project = "spam-detection"
+name = "qwen3-4b-i-spam-detection"
+entity = "lilianngweta"
+
+# Optional: online evaluation during training
+[eval]
+interval = 100
+num_examples = 50
+rollouts_per_example = 1
+eval_base_model = true
+#
+[[eval.env]]
+id = "rl-envs-team/spam-detection-rl-environment"
+args = { split = "test" }
+num_examples = 100
+rollouts_per_example = 1
+
+# Optional: validation during training
+[val]
+num_examples = 32
+rollouts_per_example = 1
+interval = 10
+
+# Optional: buffer configuration for difficulty filtering
+# [buffer]
+# easy_threshold = 0.8
+# hard_threshold = 0.2
+# easy_fraction = 0.0
+# hard_fraction = 0.0
+# online_difficulty_filtering = false
+# seed = 42

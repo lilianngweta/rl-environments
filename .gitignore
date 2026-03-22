@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+rl-for-llms/
+
+# Virtual environments
+.venv
+
+# outputs from `prime eval run`
+./outputs
+./environments/*/outputs

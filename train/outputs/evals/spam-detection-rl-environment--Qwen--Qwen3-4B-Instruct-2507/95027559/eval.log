@@ -1,0 +1,12 @@
+2026-03-22 16:36:29 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Initializing ZMQEnvServer to serve spam-detection-rl-environment (env_args={}, extra_env_kwargs={})
+2026-03-22 16:36:29 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Loading environment spam-detection-rl-environment with env_args={}
+2026-03-22 16:36:29 - verifiers.utils.env_utils - INFO - Loading environment: spam-detection-rl-environment
+2026-03-22 16:36:29 - verifiers.utils.env_utils - INFO - Successfully loaded environment 'spam-detection-rl-environment'
+2026-03-22 16:36:29 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - ZMQEnvServer started on tcp://127.0.0.1:53553
+2026-03-22 16:36:29 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Health check responder started on tcp://127.0.0.1:53554
+2026-03-22 16:36:39 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=34ms, max=34ms (n=98)
+2026-03-22 16:36:49 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=100)
+2026-03-22 16:36:59 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:37:09 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=99)
+2026-03-22 16:37:19 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Pending tasks: 32, Event loop lag: mean=1ms, p99=1ms, max=1ms (n=100)
+2026-03-22 16:37:22 - verifiers.workers.server.env_server.ZMQEnvServer - INFO - Environment server shut down
