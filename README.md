@@ -401,13 +401,6 @@ prime eval run rl-envs-team/spam-detection-rl-environment \
 - Training config: `train/configs/rl/spam-detection.toml`
 - Environment README: `environments/spam_detection_rl_environment/README.md`
 
-## 📚 Additional Resources
-
-- **Notebooks**: Check `rl-for-llms/` for educational Jupyter notebooks
-  - `creating_rl_environments.ipynb`: Step-by-step environment creation
-  - `spam_detection_RL_environment.ipynb`: Detailed spam detection walkthrough
-  - `LLM_RL.ipynb`: RL fundamentals for LLMs
-
 - **Documentation**: 
   - [Prime Intellect Docs](https://docs.primeintellect.ai)
   - [Verifiers Framework](https://github.com/PrimeIntellect-ai/verifiers)
@@ -418,10 +411,10 @@ prime eval run rl-envs-team/spam-detection-rl-environment \
 - Prime Intellect for the RL training infrastructure
 - Hugging Face for dataset hosting
 - The open-source community for various tools and libraries
-- Sundai club for good vibes
+- [Sundai club](https://www.sundai.club) for good vibes
 
 ---
 
 **Happy Training! 🚀**
 
-For questions or support, please open an issue or reach out to the community.
+For questions or support, please open an issue or reach out!
